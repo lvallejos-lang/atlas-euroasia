@@ -1,0 +1,92 @@
+ATLAS EURASIA — ATLAS ESCOLAR INTERACTIVO
+
+INICIO
+1. Abrí esta carpeta en Visual Studio Code.
+2. Iniciá Live Server desde index.html o usá otro servidor HTTP local.
+   No abras el HTML directamente como archivo: el mapa y los módulos ES
+   necesitan servirse por HTTP.
+3. Three.js, GSAP, ScrollTrigger y Google Fonts se cargan desde CDN y requieren
+   conexión a Internet.
+
+RECORRIDO E INTERACCIONES
+- Inicio y Eurasia: narrativa introductoria sincronizada con la Tierra 3D.
+- Europa y Asia: seis ejes temáticos (presentación, relieve y aguas, límites y
+  países, sociedad y cultura, economía y climas), indicadores y galerías
+  independientes.
+- Climas: mapas Köppen–Geiger independientes para Europa y Asia, periodo
+  1991–2020, límites superpuestos y tarjetas con distribución, temperaturas y
+  precipitaciones orientativas.
+- Atlas: alterna mapas físico, político, relieve y regiones; se puede seleccionar
+  un país o territorio para consultar su subregión estadística. Incluye una capa
+  de hidrografía generalizada, un localizador por subregiones y fichas de
+  elementos geográficos con fotografía y botón para ubicarlos en el mapa. El
+  relieve utiliza una imagen hipsométrica de Natural Earth 10m recortada a
+  Eurasia.
+- Fichas: carrusel geográfico general con controles y navegación por teclado.
+- Geopolítica: mapas localizadores y fichas diferenciadas sobre la guerra entre
+  Rusia y Ucrania, tensiones y defensa europeas, Kosovo-Serbia, Chipre,
+  Israel-Palestina, Taiwán, Tíbet, el mar de China Meridional y los Altos del
+  Golán. Corte editorial: 22 de noviembre de 2026; cada caso enlaza fuentes.
+- Fuentes: referencias institucionales, cartográficas y fotográficas, además de
+  notas sobre escalas, convenciones regionales y los límites de los datos.
+- Fotografías: las 12 fichas de relieve y aguas, las tarjetas climáticas y las
+  galerías conservan créditos y licencias enlazados. Los botones de ampliación
+  abren una ficha visual; Escape cierra la ventana.
+- Comparación: contraste cualitativo y barras proporcionales de superficie y
+  población, con países/territorios, densidades e hidrografía como contexto.
+- Cierre: cita final y alejamiento cinematográfico del planeta.
+- La cámara sigue el desplazamiento. En las pestañas «Relieve y aguas» también
+  se activan los paneles topográficos 3D regionales. El planeta pasa a segundo
+  plano en climas, atlas, comparación y geopolítica.
+
+ARCHIVOS Y RECURSOS INCLUIDOS
+- index.html: estructura, navegación, contenido, fuentes y créditos.
+- style.css: diseño adaptable, vidrio, galerías, mapa y comparador.
+- script.js: navegación, temas, carruseles, capas cartográficas y comparación.
+- earth.js: escena Three.js, texturas, relieve, atmósfera y cámara por scroll.
+- assets/data/ne_110m_admin_0_countries.geojson: Natural Earth 1:110m,
+  dominio público; se filtra en el navegador para mostrar Europa y Asia.
+- assets/data/ne_110m_rivers_lake_centerlines.geojson: red hidrográfica
+  generalizada de Natural Earth 1:110m. Solo se representan los cursos
+  principales disponibles en esa escala.
+- assets/photos/: fotografías locales para galerías, fichas geográficas y
+  contenidos climáticos. Los créditos junto a cada imagen enlazan el archivo
+  original y su licencia (CC BY, CC BY-SA, CC0 o dominio público).
+- assets/brand/atlas-wordmark.png: logotipo ATLAS proporcionado para la identidad
+  visual y preparado con fondo transparente para la barra de navegación.
+- assets/maps/: recortes locales de Köppen–Geiger 1991–2020 (Beck et al. 2023,
+  1 km, CC BY 4.0) y relieve hipsométrico sombreado de Natural Earth 10m
+  (dominio público).
+- assets/textures/: Tierra, topografía, máscara de agua y nubes. Los mapas
+  earth-topology.png y earth-water.png proceden de los ejemplos de three-globe
+  2.41.0: https://unpkg.com/three-globe@2.41.0/example/img/.
+- clouds-optimized.jpg es una versión 4096 × 2048 optimizada de la textura
+  local de nubes.
+
+No es necesario agregar imágenes ni datos cartográficos para ejecutar la
+versión actual: todos esos recursos están incluidos localmente.
+
+FUENTES Y CRITERIOS
+- Población: Naciones Unidas, World Population Prospects 2024
+  (https://population.un.org/wpp/).
+- Regiones estadísticas y referencias de países/territorios: ONU M49
+  (https://unstats.un.org/unsd/methodology/m49/).
+- Superficies continentales: referencias geográficas aproximadas enlazadas en
+  las fichas; la densidad se calcula a partir de superficie y población.
+- El Banco Mundial enlazado en las tarjetas cubre las regiones ECA (Europa y
+  Asia central) y EAP (Asia oriental y el Pacífico), no los continentes enteros;
+  las actividades económicas se presentan como una síntesis cualitativa.
+- Los límites Europa–Asia, los extremos geográficos y los recuentos de Estados
+  varían según las convenciones y fuentes. Natural Earth simplifica fronteras a
+  escala 1:110m y no expresa una postura sobre soberanía.
+- Las regiones mostradas son agrupaciones didácticas basadas en ONU M49; no
+  implican que exista una única regionalización geográfica universal.
+- La capa física utiliza una textura global equirectangular recortada a
+  Eurasia; la escala cambia con la latitud. Los ríos están generalizados y el
+  mapa no es apropiado para navegación ni medición local.
+- Las clases Köppen–Geiger de los mapas se agrupan visualmente en cinco
+  categorías principales; las fichas climáticas ofrecen rangos generales que
+  no reemplazan normales meteorológicas locales.
+- La sección geopolítica distingue guerras, disputas de estatus y soberanía,
+  tensiones diplomáticas y situaciones políticas. Los mapas son localizadores
+  esquemáticos; no muestran líneas de frente ni afirman soberanía.

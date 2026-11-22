@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07131c">
+  <meta name="description" content="Atlas digital interactivo para explorar la geografía física, humana y política de Eurasia, Europa y Asia.">
+  <title>ATLAS EURASIA — Un territorio, dos continentes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="earth-globe-wrap" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Atlas Eurasia, ir al inicio">
+      <span class="brand-mark"><img src="assets/brand/atlas-wordmark.png" alt=""></span>
+      <small>EURASIA · 01</small>
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a class="active" href="#inicio">Inicio</a>
+      <a href="#eurasia">Eurasia</a>
+      <a href="#europa">Europa</a>
+      <a href="#asia">Asia</a>
+      <a href="#climas">Climas</a>
+      <a href="#atlas">Atlas</a>
+      <a href="#comparacion">Comparar</a>
+      <a href="#geopolitica">Geopolítica</a>
+      <a href="#fuentes">Fuentes</a>
+      <a href="#cierre">Cierre</a>
+    </nav>
+    <a class="nav-cta" href="#atlas">Abrir atlas <span>↘</span></a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero scroll-scene" id="inicio" data-scene="overview">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> UN ATLAS DIGITAL INTERACTIVO</p>
+        <h1>Un territorio.<br><em>Dos continentes.</em></h1>
+        <p class="hero-description">Seguí la huella de Eurasia: una sola masa terrestre, innumerables paisajes y una historia compartida entre Europa y Asia.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#eurasia">Iniciar recorrido <span>↓</span></a>
+          <span class="scroll-note">DESLIZÁ PARA EXPLORAR</span>
+        </div>
+      </div>
+      <div class="hero-coordinate coordinate-one">41° N<br>12° E</div>
+      <div class="hero-coordinate coordinate-two">35° N<br>105° E</div>
+      <div class="hero-caption"><span>TIERRA · 01</span><span>41° 54′ N — 12° 29′ E</span></div>
+      <a class="scroll-cue" href="#eurasia" aria-label="Desplazarse a Eurasia"><span></span> EXPLORAR</a>
+    </section>
+
+    <section class="intro section-pad scroll-scene" id="eurasia" data-scene="eurasia">
+      <div class="section-kicker reveal"><span>01</span> / UNA MASA CONTINENTAL</div>
+      <div class="intro-grid">
+        <div class="reveal"><h2>Una tierra,<br><em>dos nombres.</em></h2></div>
+        <div class="intro-text reveal">
+          <p>Eurasia es el gran bloque continental continuo formado por Europa y Asia. No existe un océano entre ambas: su división es una convención geográfica e histórica, trazada habitualmente por los montes Urales, el río Ural, el mar Caspio, el Cáucaso y los estrechos turcos.</p>
+          <p class="muted">Desde el Atlántico hasta el Pacífico, este espacio reúne la mayor superficie terrestre y a más de la mitad de la población mundial.</p>
+          <a class="text-link" href="#europa">Seguir hacia Europa <span>↘</span></a>
+        </div>
+      </div>
+      <div class="stat-strip reveal">
+        <div><strong>≈55 M</strong><span>KM² DE SUPERFICIE TERRESTRE</span></div>
+        <div><strong>2</strong><span>CONTINENTES CONECTADOS</span></div>
+        <div><strong>≈5,5 mil M</strong><span>HABITANTES · ESTIMACIONES 2024</span></div>
+      </div>
+      <p class="data-note reveal">Cifras aproximadas: la superficie y la población varían según límites adoptados, año y fuente estadística.</p>
+    </section>
+
+    <section class="continent-explorer europe-explorer scroll-scene" id="europa" data-scene="europe" data-continent="europa" aria-labelledby="europe-title">
+      <header class="continent-heading reveal">
+        <p class="eyebrow">02 / EL OESTE DE EURASIA</p>
+        <h2 id="europe-title">Europa</h2>
+        <p>Un continente de penínsulas y mares, grandes llanuras y cordilleras jóvenes; sus fronteras y regiones reflejan convenciones geográficas e históricas.</p>
+      </header>
+      <div class="continent-data-grid" aria-label="Indicadores geográficos de Europa">
+        <article class="continent-data-card"><span>SUPERFICIE</span><strong>≈10,2 M km²</strong><small>Convención continental · <a href="https://www.britannica.com/place/Europe" target="_blank" rel="noopener noreferrer">Britannica</a></small></article>
+        <article class="continent-data-card"><span>POBLACIÓN</span><strong>≈745 millones</strong><small>2024 · <a href="https://population.un.org/wpp/" target="_blank" rel="noopener noreferrer">ONU, WPP 2024</a></small></article>
+        <article class="continent-data-card"><span>ESTADOS</span><strong>≈44</strong><small>Clasificación estadística · <a href="https://unstats.un.org/unsd/methodology/m49/" target="_blank" rel="noopener noreferrer">ONU M49</a></small></article>
+        <article class="continent-data-card"><span>DENSIDAD MEDIA</span><strong>≈73 hab./km²</strong><small>Cálculo con superficie y población 2024 · ONU / Britannica</small></article>
+        <article class="continent-data-card"><span>ACTIVIDADES</span><strong>Servicios · industria</strong><small>Síntesis cualitativa · <a href="https://www.worldbank.org/ext/en/region/eca" target="_blank" rel="noopener noreferrer">Banco Mundial, ECA</a></small></article>
+      </div>
+
+      <div class="topic-explorer" data-topic-explorer="europa">
+        <div class="topic-heading"><span>EXPLORAR EUROPA</span><span>SEIS EJES</span></div>
+        <div class="topic-tabs" role="tablist" aria-label="Temas de Europa">
+          <button type="button" role="tab" aria-selected="true" data-topic="presentacion">Presentación</button>
+          <button type="button" role="tab" aria-selected="false" data-topic="relieve">Relieve y aguas</button>
+          <button type="button" role="tab" aria-selected="false" data-topic="limites">Límites y países</button>
+          <button type="button" role="tab" aria-selected="false" data-topic="sociedad">Sociedad y cultura</button>
+          <button type="button" role="tab" aria-selected="false" data-topic="economia">Economía</button>
+          <button type="button" role="tab" aria-selected="false" data-topic="climas">Climas</button>
+        </div>
+        <article class="topic-panel" role="tabpanel" aria-live="polite">
+          <p class="topic-kicker">01 / PANORAMA</p>
+          <h3>Una diversidad a escala continental</h3>
+          <p>Europa se extiende desde el Atlántico hasta los Urales. Su tamaño relativamente compacto reúne numerosas penínsulas, mares, lenguas y trayectorias históricas.</p>
+          <ul><li>La frontera con Asia es convencional, no un límite oceánico.</li><li>Las regiones pueden agruparse de distintas maneras según la fuente.</li></ul>
+        </article>
+      </div>
+
+      <section class="photo-carousel" data-photo-carousel="europa" aria-label="Paisajes y lugares de Europa">
+        <div class="gallery-heading"><div><p class="eyebrow">CUADERNO VISUAL · 01</p><h3>Europa, en lugares</h3></div><span class="gallery-count" data-carousel-count>01 / 03</span></div>
+        <div class="gallery-track" data-carousel-track aria-live="polite">
+          <article class="gallery-slide is-active" data-gallery-slide aria-hidden="false">
+            <figure><img src="./assets/photos/europe-alps-arnisee.jpg" alt="Vista alpina desde la región del lago Arnisee, Suiza" loading="lazy"><button class="photo-zoom" type="button" data-lightbox-open aria-label="Ampliar foto: Los Alpes, Suiza">⤢</button><figcaption><a href="https://commons.wikimedia.org/wiki/File:Landscape_Arnisee-region.JPG" target="_blank" rel="noopener noreferrer">Simon Koopmann · Wikimedia Commons · CC BY-SA 2.5</a></figcaption></figure>
+            <div class="gallery-copy"><span>RELIEVE · 46,8° N · 8,6° E</span><h4>Los Alpes, Suiza</h4><p>Un paisaje de valles glaciares y cumbres que forma parte del gran arco alpino europeo.</p><p class="gallery-fact"><b>Dato geográfico</b> El macizo alpino se extiende por ocho países.</p></div>
+          </article>
+          <article class="gallery-slide" data-gallery-slide aria-hidden="true">
+            <figure><img src="./assets/photos/europe-lyngen-fjord.jpg" alt="Fiordo de Lyngen y paisaje montañoso del norte de Noruega" loading="lazy"><button class="photo-zoom" type="button" data-lightbox-open aria-label="Ampliar foto: Fiordo de Lyngen, Noruega">⤢</button><figcaption><a href="https://commons.wikimedia.org/wiki/File:At_Lyngen_fjord,_Sp%C3%A5kenes_in_2012_June.jpg" target="_blank" rel="noopener noreferrer">Ximonic (Simo Räsänen) · Wikimedia Commons · CC BY-SA 3.0</a></figcaption></figure>
+            <div class="gallery-copy"><span>COSTA · 69,8° N · 20,5° E</span><h4>Fiordo de Lyngen, Noruega</h4><p>Montañas abruptas descienden hacia un brazo de mar modelado por antiguos glaciares.</p><p class="gallery-fact"><b>Dato geográfico</b> Los fiordos son valles glaciares inundados por el mar.</p></div>
+          </article>
+          <article class="gallery-slide" data-gallery-slide aria-hidden="true">
+            <figure><img src="./assets/photos/europe-venice-canal.jpg" alt="Palacio histórico junto al Gran Canal de Venecia" loading="lazy"><button class="photo-zoom" type="button" data-lightbox-open aria-label="Ampliar foto: Venecia, Italia">⤢</button><figcaption><a href="https://commons.wikimedia.org/wiki/File:(Venice)_Hotel_Principe_-_Facade_on_Grand_Canal.jpg" target="_blank" rel="noopener noreferrer">Didier Descouens · Wikimedia Commons · CC BY-SA 4.0</a></figcaption></figure>
+            <div class="gallery-copy"><span>CIUDAD · 45,4° N · 12,3° E</span><h4>Venecia, Italia</h4><p>Una ciudad histórica construida sobre islas de la laguna veneciana, conectada por canales y puentes.</p><p class="gallery-fact"><b>Dato geográfico</b> La laguna forma parte del litoral norte del mar Adriático.</p></div>
+          </article>
+        </div>
+        <div class="gallery-controls"><button type="button" data-carousel-prev aria-label="Fotografía europea anterior">←</button><div class="gallery-dots" role="tablist" aria-label="Elegir fotografía de Europa"><button type="button" data-carousel-dot="0" aria-label="Fotografía 1" aria-selected="true"></button><button type="button" data-carousel-dot="1" aria-label="Fotografía 2" aria-selected="false"></button><button type="button" data-carousel-dot="2" aria-label="Fotografía 3" aria-selected="false"></button></div><button type="button" data-carousel-next aria-label="Fotografía europea siguiente">→</button></div>
+      </section>
+    </section>
+
+    <section class="continent-explorer asia-explorer scroll-scene" id="asia" data-scene="asia" data-continent="asia" aria-labelledby="asia-title">
+      <header class="continent-heading reveal">
+        <p class="eyebrow">03 / EL ESTE DE EURASIA</p>
+        <h2 id="asia-title">Asia</h2>
+        <p>El continente más extenso: desde el Ártico hasta el Índico y el Pacífico, con enormes contrastes de altitud, clima, población y cultura.</p>
+      </header>
+      <div class="continent-data-grid" aria-label="Indicadores geográficos de Asia">
+        <article class="continent-data-card"><span>SUPERFICIE</span><strong>≈44,6 M km²</strong><small>Convención continental · <a href="https://www.britannica.com/place/Asia" target="_blank" rel="noopener noreferrer">Britannica</a></small></article>
+        <article class="continent-data-card"><span>POBLACIÓN</span><strong>≈4.800 millones</strong><small>2024 · <a href="https://population.un.org/wpp/" target="_blank" rel="noopener noreferrer">ONU, WPP 2024</a></small></article>
+        <article class="continent-data-card"><span>ESTADOS</span><strong>≈48</strong><small>Clasificación estadística · <a href="https://unstats.un.org/unsd/methodology/m49/" target="_blank" rel="noopener noreferrer">ONU M49</a></small></article>
+        <article class="continent-data-card"><span>DENSIDAD MEDIA</span><strong>≈108 hab./km²</strong><small>Cálculo con superficie y población 2024 · ONU / Britannica</small></article>
+        <article class="continent-data-card"><span>ACTIVIDADES</span><strong>Industria · servicios</strong><small>Síntesis cualitativa · <a href="https://www.worldbank.org/ext/en/region/eap" target="_blank" rel="noopener noreferrer">Banco Mundial, Asia oriental y el Pacífico</a></small></article>
+      </div>
+
+      <div class="topic-explorer" data-topic-explorer="asia">
+        <div class="topic-heading"><span>EXPLORAR ASIA</span><span>SEIS EJES</span></div>
+        <div class="topic-tabs" role="tablist" aria-label="Temas de Asia">
+          <button type="button" role="tab" aria-selected="true" data-topic="presentacion">Presentación</button>
+          <button type="button" role="tab" aria-selected="false" data-topic="relieve">Relieve y aguas</button>
+          <button type="button" role="tab" aria-selected="false" data-topic="limites">Límites y países</button>
+          <button type="button" role="tab" aria-selected="false" data-topic="sociedad">Sociedad y cultura</button>
+          <button type="button" role="tab" aria-selected="false" data-topic="economia">Economía</button>
+          <button type="button" role="tab" aria-selected="false" data-topic="climas">Climas</button>
+        </div>
+        <article class="topic-panel" role="tabpanel" aria-live="polite">
+          <p class="topic-kicker">01 / PANORAMA</p>
+          <h3>Un continente de grandes contrastes</h3>
+          <p>Asia reúne desde llanuras árticas y estepas interiores hasta archipiélagos tropicales. Sus límites occidentales son convencionales y varían entre clasificaciones.</p>
+          <ul><li>La meseta tibetana y el Himalaya se alzan en el centro-sur.</li><li>Las poblaciones y actividades se distribuyen de forma muy desigual.</li></ul>
+        </article>
+      </div>
+
+      <section class="photo-carousel" data-photo-carousel="asia" aria-label="Paisajes y lugares de Asia">
+        <div class="gallery-heading"><div><p class="eyebrow">CUADERNO VISUAL · 02</p><h3>Asia, en lugares</h3></div><span class="gallery-count" data-carousel-count>01 / 04</span></div>
+        <div class="gallery-track" data-carousel-track aria-live="polite">
+          <article class="gallery-slide is-active" data-gallery-slide aria-hidden="false">
+            <figure><img src="./assets/photos/asia-himalaya-nepal.jpg" alt="Campo glaciar cubierto de nieve en el Himalaya de Nepal" loading="lazy"><button class="photo-zoom" type="button" data-lightbox-open aria-label="Ampliar foto: Himalaya, Nepal">⤢</button><figcaption><a href="https://commons.wikimedia.org/wiki/File:Himalayas,_Nepal.jpg" target="_blank" rel="noopener noreferrer">Vyacheslav Argenberg · Wikimedia Commons · CC BY 4.0</a></figcaption></figure>
+            <div class="gallery-copy"><span>ALTA MONTAÑA · 28,0° N · 86,8° E</span><h4>Himalaya, Nepal</h4><p>Un campo glaciar de alta montaña en el entorno del paso Cho La, dentro de la región del Everest.</p><p class="gallery-fact"><b>Dato geográfico</b> El Himalaya concentra numerosas cumbres de más de 8.000 m.</p></div>
+          </article>
+          <article class="gallery-slide" data-gallery-slide aria-hidden="true">
+            <figure><img src="./assets/photos/asia-gobi-mongolia.jpg" alt="Paisaje árido del desierto de Gobi en la provincia de Ömnögovi, Mongolia" loading="lazy"><button class="photo-zoom" type="button" data-lightbox-open aria-label="Ampliar foto: Gobi, Mongolia">⤢</button><figcaption><a href="https://commons.wikimedia.org/wiki/File:Gobi_Desert_2023_in_%C3%96mn%C3%B6govi_Province,_Mongolia_22.jpg" target="_blank" rel="noopener noreferrer">ノボホショコロトソ · Wikimedia Commons · CC BY-SA 3.0</a></figcaption></figure>
+            <div class="gallery-copy"><span>DESIERTO · 43° N · 104° E</span><h4>Gobi, Mongolia</h4><p>Una extensa región árida de Asia interior, con estepas, mesetas y sectores desérticos.</p><p class="gallery-fact"><b>Dato geográfico</b> El Gobi se extiende entre Mongolia y el norte de China.</p></div>
+          </article>
+          <article class="gallery-slide" data-gallery-slide aria-hidden="true">
+            <figure><img src="./assets/photos/asia-kyoto-ginkakuji.jpg" alt="Vista del Pabellón de Plata y su entorno arbolado en Kioto, Japón" loading="lazy"><button class="photo-zoom" type="button" data-lightbox-open aria-label="Ampliar foto: Kioto, Japón">⤢</button><figcaption><a href="https://commons.wikimedia.org/wiki/File:Sunlight_through_clouds_and_view_of_Ginkaku-ji_Temple_from_above,_Kyoto,_Japan.jpg" target="_blank" rel="noopener noreferrer">Basile Morin · Wikimedia Commons · CC BY-SA 4.0</a></figcaption></figure>
+            <div class="gallery-copy"><span>CIUDAD · 35,0° N · 135,8° E</span><h4>Kioto, Japón</h4><p>La antigua capital conserva templos y jardines en una cuenca rodeada de montañas.</p><p class="gallery-fact"><b>Dato geográfico</b> La cuenca de Kioto está delimitada por relieves en tres de sus lados.</p></div>
+          </article>
+          <article class="gallery-slide" data-gallery-slide aria-hidden="true">
+            <figure><img src="./assets/photos/asia-great-wall-jiankou.jpg" alt="La Gran Muralla de China recorriendo las montañas en el sector de Jiankou" loading="lazy"><button class="photo-zoom" type="button" data-lightbox-open aria-label="Ampliar foto: Jiankou, China">⤢</button><figcaption><a href="https://commons.wikimedia.org/wiki/File:Landscape_-_Great_Wall_of_China_at_Jiankou.jpg" target="_blank" rel="noopener noreferrer">Sindarus · Wikimedia Commons · CC BY-SA 4.0</a></figcaption></figure>
+            <div class="gallery-copy"><span>MONTAÑA · 40,4° N · 116,0° E</span><h4>Jiankou, China</h4><p>Un tramo de la Gran Muralla sigue crestas montañosas al norte de Pekín.</p><p class="gallery-fact"><b>Dato geográfico</b> El trazado se adapta al relieve y no constituye una única muralla continua.</p></div>
+          </article>
+        </div>
+        <div class="gallery-controls"><button type="button" data-carousel-prev aria-label="Fotografía asiática anterior">←</button><div class="gallery-dots" role="tablist" aria-label="Elegir fotografía de Asia"><button type="button" data-carousel-dot="0" aria-label="Fotografía 1" aria-selected="true"></button><button type="button" data-carousel-dot="1" aria-label="Fotografía 2" aria-selected="false"></button><button type="button" data-carousel-dot="2" aria-label="Fotografía 3" aria-selected="false"></button><button type="button" data-carousel-dot="3" aria-label="Fotografía 4" aria-selected="false"></button></div><button type="button" data-carousel-next aria-label="Fotografía asiática siguiente">→</button></div>
+      </section>
+    </section>
+
+    <section class="climate-section section-pad scroll-scene" id="climas" data-scene="climates">
+      <header class="climate-heading">
+        <p class="section-kicker"><span>04</span> / PATRONES ATMOSFÉRICOS</p>
+        <h2>Climas de<br><em>Europa y Asia.</em></h2>
+        <p>La latitud, la distancia al mar, el relieve y la circulación estacional producen grandes contrastes. Los mapas muestran la clasificación Köppen–Geiger para 1991–2020; las síntesis y rangos de las fichas son orientativos, no promedios de cada región.</p>
+      </header>
+      <div class="climate-map-grid">
+        <figure class="climate-map-card">
+          <figcaption><span>EUROPA · 1991–2020</span><strong>De la fachada atlántica al Ártico</strong></figcaption>
+          <div class="climate-map-stage">
+            <img src="./assets/maps/koppen-europe-1991-2020.png" alt="Mapa Köppen–Geiger de Europa para 1991–2020, con tipos climáticos coloreados" loading="lazy">
+            <svg class="climate-map-overlay" data-climate-overlay="europe" viewBox="0 0 1000 500" aria-hidden="true"></svg>
+          </div>
+          <div class="climate-legend" aria-label="Grupos climáticos del mapa">
+            <span><i class="climate-a"></i>A · tropical</span><span><i class="climate-b"></i>B · árido</span><span><i class="climate-c"></i>C · templado</span><span><i class="climate-d"></i>D · continental/frío</span><span><i class="climate-e"></i>E · polar</span>
+          </div>
+          <p>Clasificación climática a escala continental; los bordes son generalizados y el mapa no sustituye datos meteorológicos locales.</p>
+        </figure>
+        <figure class="climate-map-card">
+          <figcaption><span>ASIA · 1991–2020</span><strong>Del Ártico a los trópicos</strong></figcaption>
+          <div class="climate-map-stage">
+            <img src="./assets/maps/koppen-asia-1991-2020.png" alt="Mapa Köppen–Geiger de Asia para 1991–2020, con tipos climáticos coloreados" loading="lazy">
+            <svg class="climate-map-overlay" data-climate-overlay="asia" viewBox="0 0 1000 500" aria-hidden="true"></svg>
+          </div>
+          <div class="climate-legend" aria-label="Grupos climáticos del mapa">
+            <span><i class="climate-a"></i>A · tropical</span><span><i class="climate-b"></i>B · árido</span><span><i class="climate-c"></i>C · templado</span><span><i class="climate-d"></i>D · continental/frío</span><span><i class="climate-e"></i>E · polar</span>
+          </div>
+          <p>Clasificación climática a escala continental; los bordes son generalizados y el mapa no sustituye datos meteorológicos locales.</p>
+        </figure>
+      </div>
+      <div class="climate-source-note">
+        <span>FUENTE CARTOGRÁFICA</span>
+        <p>Beck et al. (2023), mapas Köppen–Geiger de 1 km, versión 3, periodo 1991–2020 · <a href="https://doi.org/10.1038/s41597-023-02549-6" target="_blank" rel="noopener noreferrer">Scientific Data · DOI 10.1038/s41597-023-02549-6</a> · licencia CC BY 4.0. Límites superpuestos: Natural Earth 1:110m.</p>
+      </div>
+      <div class="climate-card-groups">
+        <section class="climate-continent-group" aria-labelledby="europe-climate-title">
+          <header><span>EUROPA</span><h3 id="europe-climate-title">Cinco dominios climáticos</h3></header>
+          <div class="climate-zone-grid" id="europa-climate-grid"></div>
+        </section>
+        <section class="climate-continent-group" aria-labelledby="asia-climate-title">
+          <header><span>ASIA</span><h3 id="asia-climate-title">Del frío extremo a los monzones</h3></header>
+          <div class="climate-zone-grid" id="asia-climate-grid"></div>
+        </section>
+      </div>
+      <p class="climate-method">Temperaturas y precipitaciones expresan rangos climáticos generales y varían por altitud, estación, exposición y periodo de observación. En Köppen–Geiger, las letras agrupan regímenes, no fronteras políticas.</p>
+    </section>
+
+    <section class="atlas-section section-pad" id="atlas">
+      <header class="atlas-intro reveal">
+        <p class="section-kicker"><span>05</span> / CARTOGRAFÍA EXPLORABLE</p>
+        <div class="atlas-heading">
+          <div><h2>Un territorio,<br><em>distintas lecturas.</em></h2></div>
+          <p>Alterná entre capas temáticas y seleccioná un país para ver su nombre. Los límites son cartográficos y no expresan una postura política.</p>
+        </div>
+      </header>
+      <div class="map-explorer reveal" id="map-explorer">
+        <div class="map-toolbar">
+          <div class="map-tabs" role="tablist" aria-label="Capas del mapa">
+            <button type="button" role="tab" data-map-layer="physical" aria-selected="true">Físico</button>
+            <button type="button" role="tab" data-map-layer="political" aria-selected="false">Político</button>
+            <button type="button" role="tab" data-map-layer="relief" aria-selected="false">Relieve</button>
+            <button type="button" role="tab" data-map-layer="hydrography" aria-selected="false">Hidrografía</button>
+            <button type="button" role="tab" data-map-layer="regions" aria-selected="false">Regiones</button>
+          </div>
+          <span class="map-layer-label" id="map-layer-label">Mapa físico · Natural Earth 1:110m</span>
+        </div>
+        <div class="map-display">
+          <svg id="eurasia-map" class="eurasia-map" viewBox="0 0 1000 500" role="group" aria-labelledby="map-title map-description">
+            <title id="map-title">Mapa interactivo de Europa y Asia</title>
+            <desc id="map-description">Mapa equirectangular con fronteras seleccionables.</desc>
+          </svg>
+          <aside class="map-selection" aria-live="polite">
+            <span>SELECCIÓN</span>
+            <strong id="map-selection-name">Elegí un país</strong>
+            <p id="map-selection-region">La capa cambia con los controles superiores.</p>
+          </aside>
+        </div>
+        <div class="map-footer">
+          <div class="map-legend" id="map-legend" aria-live="polite">
+            <span class="legend-swatch land"></span><span>Tierras emergidas</span>
+            <span class="legend-swatch boundary"></span><span>Límites generalizados</span>
+          </div>
+          <p id="map-status" role="status">Preparando datos cartográficos locales…</p>
+          <p id="map-source-note">Natural Earth 1:110m · dominio público. Proyección equirectangular; escala variable por latitud.</p>
+        </div>
+      </div>
+
+      <section class="region-explorer" aria-labelledby="region-title">
+        <header class="subsection-heading">
+          <p class="eyebrow">EXPLORACIÓN TERRITORIAL</p>
+          <h3 id="region-title">Regiones en contexto</h3>
+          <p>Elegí una región para consultar su ubicación, países y rasgos físicos y humanos. La selección también resalta sus unidades en el mapa del Atlas.</p>
+        </header>
+        <div class="region-layout">
+          <div class="region-controls">
+            <div class="region-button-group" role="group" aria-label="Regiones de Europa">
+              <span>EUROPA</span>
+              <button type="button" data-region-select="europe-north">Septentrional</button>
+              <button type="button" data-region-select="europe-west">Occidental</button>
+              <button type="button" data-region-select="europe-central">Central</button>
+              <button type="button" data-region-select="europe-south">Meridional</button>
+              <button type="button" data-region-select="europe-east">Oriental</button>
+            </div>
+            <div class="region-button-group" role="group" aria-label="Regiones de Asia">
+              <span>ASIA</span>
+              <button type="button" data-region-select="asia-north">Septentrional</button>
+              <button type="button" data-region-select="asia-central">Central</button>
+              <button type="button" data-region-select="asia-west">Occidental</button>
+              <button type="button" data-region-select="asia-south">Meridional</button>
+              <button type="button" data-region-select="asia-east">Oriental</button>
+              <button type="button" data-region-select="asia-southeast">Sudoriental</button>
+            </div>
+            <article class="region-detail" aria-live="polite">
+              <p class="region-kicker" id="region-kicker">EUROPA · REGIÓN CENTRAL</p>
+              <h4 id="region-name">Europa central</h4>
+              <p id="region-location">Entre las llanuras del norte y los arcos montañosos alpinos y carpáticos.</p>
+              <dl>
+                <div><dt>Países / áreas</dt><dd id="region-countries"></dd></div>
+                <div><dt>Relieve</dt><dd id="region-relief"></dd></div>
+                <div><dt>Clima</dt><dd id="region-climate"></dd></div>
+                <div><dt>Sociedad y economía</dt><dd id="region-society"></dd></div>
+              </dl>
+              <p class="region-method" id="region-method">Agrupación geográfica didáctica; no constituye una clasificación política.</p>
+              <button class="button button-outline" id="region-map-action" type="button">Resaltar en el mapa ↗</button>
+            </article>
+          </div>
+          <figure class="region-map-card">
+            <figcaption><span>LOCALIZADOR REGIONAL</span><strong id="region-map-caption">Europa central</strong></figcaption>
+            <svg id="region-map-preview" class="region-map-preview" viewBox="0 0 1000 500" role="img" aria-labelledby="region-map-title region-map-description">
+              <title id="region-map-title">Mapa de Europa central</title>
+              <desc id="region-map-description">La región seleccionada aparece destacada sobre el mapa de Eurasia.</desc>
+            </svg>
+            <p>Contorno de referencia Natural Earth 1:110m. Las áreas pequeñas pueden no distinguirse a esta escala.</p>
+          </figure>
+        </div>
+      </section>
+
+      <section class="geographic-highlights" aria-labelledby="highlights-title">
+        <header class="subsection-heading">
+          <p class="eyebrow">FORMAS DEL TERRITORIO</p>
+          <h3 id="highlights-title">Relieves y aguas destacados</h3>
+          <p>Doce referencias para orientarse. Cada ficha puede localizarse en el mapa regional.</p>
+        </header>
+        <div class="landform-grid" id="landform-grid"></div>
+      </section>
+
+      <div class="section-kicker reveal"><span>ATLAS</span> / FICHAS DE CAMPO</div>
+      <div class="atlas-heading reveal">
+        <div><h2>Leer el territorio<br><em>en capas.</em></h2></div>
+        <p>Explorá cada ficha para conocer límites, regiones, paisajes, población y economía. Las cifras son aproximadas y dependen de la delimitación empleada.</p>
+      </div>
+
+      <div class="carousel-shell reveal" tabindex="0" aria-roledescription="carrusel" aria-label="Fichas geográficas de Eurasia">
+        <div class="carousel-track" aria-live="polite">
+          <article class="atlas-card is-active" data-slide="0" aria-label="Ficha 1 de 3: Eurasia">
+            <div class="card-topline"><span>01 / 03</span><span>VISIÓN GLOBAL</span></div>
+            <h3>Eurasia</h3>
+            <p class="card-deck">Una continuidad terrestre entre el Atlántico y el Pacífico.</p>
+            <div class="card-facts">
+              <div><h4>Forma y escala</h4><p>Con aproximadamente 55 millones de km², Eurasia es el mayor bloque continental del planeta. Comprende cerca de 10,2 millones de km² de Europa y 44,6 millones de km² de Asia; las cifras cambian según el criterio de frontera.</p></div>
+              <div><h4>Una frontera convencional</h4><p>La separación Europa–Asia no es un límite oceánico. La línea más extendida sigue los Urales, el río Ural, el Caspio, la divisoria del Gran Cáucaso y los estrechos del Bósforo y los Dardanelos; existen variantes.</p></div>
+              <div><h4>Relieve y aguas</h4><p>El arco alpino-himalayo, las llanuras septentrionales, la meseta tibetana y cuencas interiores contrastan con costas muy recortadas. El Volga, Danubio, Rin, Yangtsé, Ganges, Indo, Obi, Yeniséi y Lena drenan ambientes distintos.</p></div>
+              <div><h4>Personas y conexiones</h4><p>Europa y Asia reúnen alrededor de 5,5 mil millones de habitantes en estimaciones de 2024. Las rutas terrestres y marítimas, las migraciones, las cadenas productivas y los intercambios culturales vinculan regiones muy diversas.</p></div>
+            </div>
+            <div class="card-foot"><span>GEOGRAFÍA FÍSICA · HUMANA · POLÍTICA</span><span>↗ 55° E</span></div>
+          </article>
+
+          <article class="atlas-card" data-slide="1" aria-label="Ficha 2 de 3: Europa" aria-hidden="true">
+            <div class="card-topline"><span>02 / 03</span><span>OESTE DE EURASIA</span></div>
+            <h3>Europa</h3>
+            <p class="card-deck">Un continente pequeño en superficie, muy diverso en paisajes y Estados.</p>
+            <div class="card-facts">
+              <div><h4>Límites y extremos</h4><p>Limita al norte con el océano Ártico, al oeste con el Atlántico y al sur con los mares Mediterráneo y Negro. Al este, el límite convencional recorre los Urales, el Ural y el Caspio. Cabo Nordkinn (Noruega) es el extremo norte continental, Cabo da Roca (Portugal) el occidental y Punta de Tarifa (España) el meridional. Cabo Norte está en una isla noruega; los extremos insulares dependen del criterio.</p></div>
+              <div><h4>Regiones y países</h4><p>Suele dividirse en Europa septentrional, occidental, central, oriental y meridional; las clasificaciones no son únicas. En el continente se reconocen alrededor de 44 Estados soberanos, según criterios de reconocimiento y frontera; Rusia y Turquía se extienden también por Asia.</p></div>
+              <div><h4>Relieve, ríos y climas</h4><p>La Gran Llanura Europea contrasta con Alpes, Pirineos, Cárpatos, Apeninos y montes Escandinavos. Entre sus ríos destacan Volga, Danubio y Rin. Predominan climas templados oceánicos, continentales y mediterráneos; al norte hay climas subárticos y en alta montaña, condiciones alpinas.</p></div>
+              <div><h4>Población, política y economía</h4><p>Alberga unos 745 millones de habitantes (estimación regional de 2024), con alta urbanización y envejecimiento demográfico. La Unión Europea integra 27 países, pero Europa incluye muchos Estados fuera de ella. Economías de servicios, industria, tecnología y agricultura comercian intensamente, con desigualdades regionales y transiciones energéticas en curso.</p></div>
+            </div>
+            <div class="card-foot"><span>LÍMITES · RELIEVE · SOCIEDADES</span><span>↗ 15° E</span></div>
+          </article>
+
+          <article class="atlas-card" data-slide="2" aria-label="Ficha 3 de 3: Asia" aria-hidden="true">
+            <div class="card-topline"><span>03 / 03</span><span>ESTE DE EURASIA</span></div>
+            <h3>Asia</h3>
+            <p class="card-deck">El mayor continente: una sucesión de mundos climáticos y culturales.</p>
+            <div class="card-facts">
+              <div><h4>Límites y extremos</h4><p>Asia bordea los océanos Ártico, Pacífico e Índico; al oeste la separan de Europa límites convencionales, y al suroeste conecta con África por el istmo de Suez. Cabo Chelyuskin (Rusia) es el extremo continental septentrional, Cabo Dezhnev (Rusia) el oriental y Cabo Piai (Malasia) el meridional; los puntos insulares más extremos dependen del criterio.</p></div>
+              <div><h4>Regiones y países</h4><p>Se distinguen Asia septentrional, central, oriental, meridional, sudoriental y occidental. El número de Estados suele situarse en torno a 48, según el reconocimiento y la delimitación; Rusia es transcontinental y algunos territorios se agrupan de manera distinta entre fuentes.</p></div>
+              <div><h4>Relieve, ríos y climas</h4><p>Himalaya y Karakórum incluyen las mayores alturas del planeta; también destacan la meseta del Tíbet, el Pamir, el desierto de Gobi y las llanuras siberianas. Yangtsé, Huang He, Ganges, Indo, Mekong, Obi, Yeniséi y Lena son grandes sistemas fluviales. Hay climas árticos, continentales, desérticos, monzónicos, tropicales y ecuatoriales.</p></div>
+              <div><h4>Población, política y economía</h4><p>Con unos 4,8 mil millones de habitantes (estimación regional de 2024), concentra cerca del 60 % de la población mundial. China e India son los países más poblados. La región reúne potencias industriales y tecnológicas, grandes centros financieros, productores de energía y economías agrícolas; conviven cooperación e integración con disputas territoriales y fuertes brechas de ingreso.</p></div>
+            </div>
+            <div class="card-foot"><span>CLIMAS · POBLACIÓN · INTERCAMBIOS</span><span>↗ 105° E</span></div>
+          </article>
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-arrow previous" type="button" aria-label="Ver ficha anterior">←</button>
+          <div class="carousel-pagination" role="tablist" aria-label="Seleccionar ficha">
+            <button type="button" role="tab" aria-label="Ficha Eurasia" aria-selected="true" data-go="0"></button>
+            <button type="button" role="tab" aria-label="Ficha Europa" aria-selected="false" data-go="1"></button>
+            <button type="button" role="tab" aria-label="Ficha Asia" aria-selected="false" data-go="2"></button>
+          </div>
+          <span class="carousel-count">01 <i>/ 03</i></span>
+          <button class="carousel-arrow next" type="button" aria-label="Ver ficha siguiente">→</button>
+        </div>
+      </div>
+      <p class="source-note reveal">Datos orientativos basados en estimaciones demográficas de Naciones Unidas (World Population Prospects 2024) y superficies continentales de referencia. Los límites, extremos y recuentos de países pueden variar entre fuentes.</p>
+    </section>
+
+    <section class="compare-section section-pad scroll-scene" id="comparacion" data-scene="compare">
+      <header class="compare-heading reveal">
+        <p class="section-kicker"><span>06</span> / DOS CONTINENTES</p>
+        <h2>Europa <em>vs.</em> Asia</h2>
+        <p>Escalas distintas, conectadas por una misma masa terrestre. Las cifras son aproximadas y siguen criterios geográficos explícitos.</p>
+      </header>
+      <div class="comparison-table reveal" role="table" aria-label="Comparación geográfica entre Europa y Asia">
+        <div class="comparison-header" role="row"><span role="columnheader">EJE</span><span role="columnheader">EUROPA</span><span role="columnheader">ASIA</span></div>
+        <div class="comparison-row numeric-row" role="row" data-compare-values="10.2,44.6">
+          <strong role="rowheader">Superficie</strong>
+          <span role="cell"><b>≈10,2 M km²</b><i class="compare-track"><i data-compare-bar="0"></i></i></span>
+          <span role="cell"><b>≈44,6 M km²</b><i class="compare-track"><i data-compare-bar="1"></i></i></span>
+        </div>
+        <div class="comparison-row numeric-row" role="row" data-compare-values="0.745,4.8">
+          <strong role="rowheader">Población · 2024</strong>
+          <span role="cell"><b>≈745 millones</b><i class="compare-track"><i data-compare-bar="0"></i></i></span>
+          <span role="cell"><b>≈4.800 millones</b><i class="compare-track"><i data-compare-bar="1"></i></i></span>
+        </div>
+        <div class="comparison-row numeric-row" role="row" data-compare-values="44,48">
+          <strong role="rowheader">Estados · aproximación</strong>
+          <span role="cell"><b>≈44</b><i class="compare-track"><i data-compare-bar="0"></i></i></span>
+          <span role="cell"><b>≈48</b><i class="compare-track"><i data-compare-bar="1"></i></i></span>
+        </div>
+        <div class="comparison-row numeric-row" role="row" data-compare-values="73,108">
+          <strong role="rowheader">Densidad · hab./km²</strong>
+          <span role="cell"><b>≈73</b><i class="compare-track"><i data-compare-bar="0"></i></i></span>
+          <span role="cell"><b>≈108</b><i class="compare-track"><i data-compare-bar="1"></i></i></span>
+        </div>
+        <div class="comparison-row" role="row"><strong role="rowheader">Relieve</strong><span role="cell">Gran Llanura Europea, Alpes, Pirineos, Cárpatos y montes Escandinavos.</span><span role="cell">Llanuras siberianas, meseta tibetana, Himalaya, Pamir y grandes cuencas.</span></div>
+        <div class="comparison-row" role="row"><strong role="rowheader">Hidrografía</strong><span role="cell">Ríos de recorrido relativamente corto; destacan Volga, Danubio y Rin, junto a numerosas cuencas compartidas.</span><span role="cell">Grandes sistemas fluviales como Yangtsé, Ganges-Brahmaputra, Indo, Mekong, Obi, Yeniséi y Lena.</span></div>
+        <div class="comparison-row" role="row"><strong role="rowheader">Climas</strong><span role="cell">Predominan los templados oceánicos, continentales y mediterráneos; también hay condiciones subárticas y alpinas.</span><span role="cell">Desde climas árticos y continentales hasta desiertos, monzones, trópicos y zonas ecuatoriales.</span></div>
+        <div class="comparison-row" role="row"><strong role="rowheader">Diversidad cultural</strong><span role="cell">Múltiples familias lingüísticas, tradiciones y Estados en un espacio de alta conectividad regional.</span><span role="cell">Gran diversidad de pueblos, lenguas y religiones entre Asia occidental, central, meridional, oriental y sudoriental.</span></div>
+        <div class="comparison-row" role="row"><strong role="rowheader">Economía</strong><span role="cell">Servicios, industria, comercio, turismo y agricultura; grandes diferencias entre países y subregiones.</span><span role="cell">Manufactura, servicios, agricultura, energía y tecnología con contrastes marcados entre economías.</span></div>
+        <div class="comparison-row" role="row"><strong role="rowheader">Distribución territorial</strong><span role="cell">Costas muy recortadas, penínsulas y distancias relativamente cortas entre muchas regiones.</span><span role="cell">Enormes distancias, archipiélagos, interiores continentales y densidades muy desiguales.</span></div>
+      </div>
+      <p class="comparison-source">Población: <a href="https://population.un.org/wpp/" target="_blank" rel="noopener noreferrer">ONU, World Population Prospects 2024</a>. Regiones: <a href="https://unstats.un.org/unsd/methodology/m49/" target="_blank" rel="noopener noreferrer">ONU M49</a>. Superficies y recuentos son aproximados; densidades derivadas de población y área. Las comparaciones culturales y económicas son síntesis cualitativas, no rankings.</p>
+    </section>
+
+    <section class="geopolitics-section section-pad scroll-scene" id="geopolitica" data-scene="geopolitics">
+      <header class="geopolitics-heading">
+        <p class="section-kicker"><span>07</span> / GEOGRAFÍA POLÍTICA ACTUAL</p>
+        <h2>Geopolítica<br><em>de Eurasia.</em></h2>
+        <p>Guerras, disputas de soberanía y tensiones diplomáticas no son lo mismo. Estas fichas ubican algunos casos representativos y resumen sus antecedentes, actores y efectos sin equiparar sus contextos.</p>
+      </header>
+      <p class="geopolitics-date">REFERENCIA DE ACTUALIZACIÓN · 22 DE NOVIEMBRE DE 2026 <span>Las situaciones cambian; las fuentes enlazadas ofrecen sus últimas actualizaciones.</span></p>
+      <div class="geopolitics-continent">
+        <header class="geopolitics-subheading"><span>EUROPA</span><h3>Guerra, seguridad y fronteras políticas</h3></header>
+        <div class="geopolitics-layout">
+          <figure class="conflict-map-card">
+            <figcaption><span>MAPA DE LOCALIZACIÓN</span><strong>Europa</strong></figcaption>
+            <svg class="conflict-map" data-conflict-map="europe" viewBox="0 0 1000 500" role="img" aria-label="Mapa de Europa con la localización aproximada de Ucrania, las fronteras orientales europeas, Kosovo y Chipre"></svg>
+            <p>Marcadores orientativos, no líneas de frente ni límites de soberanía. Base cartográfica: Natural Earth 1:110m.</p>
+          </figure>
+          <div class="geopolitics-cards">
+            <article class="conflict-card" data-conflict="ukraine">
+              <span class="conflict-type">GUERRA · EUROPA ORIENTAL</span><h4>Rusia–Ucrania</h4>
+              <dl><div><dt>Ubicación y actores</dt><dd>Ucrania y zonas ocupadas por Rusia; participan los Estados de ambos países y, en distintos grados, aliados y organizaciones que prestan apoyo o mediación.</dd></div><div><dt>Antecedentes y causas</dt><dd>La guerra iniciada en 2014 se amplió con la invasión rusa a gran escala del 24 de febrero de 2022. Sus antecedentes incluyen disputas sobre soberanía, seguridad, orientación política y el orden europeo; las partes ofrecen narrativas y justificaciones contrapuestas.</dd></div><div><dt>Situación y consecuencias</dt><dd>Al corte de noviembre de 2026, continúa la guerra a gran escala. Muertes, desplazamiento, daños a infraestructura y ocupación de territorios tienen consecuencias humanitarias y económicas dentro y fuera de la región.</dd></div></dl>
+              <a href="https://www.unocha.org/ukraine" target="_blank" rel="noopener noreferrer">OCHA · respuesta humanitaria 2026 ↗</a>
+            </article>
+            <article class="conflict-card" data-conflict="security">
+              <span class="conflict-type">TENSIÓN DIPLOMÁTICA Y MILITAR</span><h4>Rusia y la seguridad europea</h4>
+              <dl><div><dt>Ubicación y actores</dt><dd>Fronteras y espacios aéreos del flanco oriental; Rusia, países europeos, la OTAN y la Unión Europea, con mandatos distintos.</dd></div><div><dt>Antecedentes y causas</dt><dd>La guerra en Ucrania agravó desacuerdos previos sobre ampliación de alianzas, despliegues militares, control de armas y seguridad regional.</dd></div><div><dt>Situación y consecuencias</dt><dd>Relaciones muy deterioradas, sanciones y mayor cooperación defensiva entre algunos países europeos. La tensión no constituye por sí misma una guerra directa entre Rusia y la OTAN; los riesgos de escalada y los efectos sobre energía, gasto público y seguridad siguen siendo debatidos.</dd></div></dl>
+              <a href="https://www.nato.int/cps/en/natohq/topics_110496.htm" target="_blank" rel="noopener noreferrer">OTAN · relaciones con Rusia ↗</a>
+            </article>
+            <article class="conflict-card" data-conflict="kosovo">
+              <span class="conflict-type">DISPUTA DE ESTATUS · DIÁLOGO</span><h4>Kosovo y Serbia</h4>
+              <dl><div><dt>Ubicación y actores</dt><dd>Balcanes occidentales; autoridades de Kosovo y Serbia, comunidades locales y la Unión Europea como facilitadora del diálogo.</dd></div><div><dt>Antecedentes y causas</dt><dd>El conflicto de fines de los años noventa, la administración internacional posterior y la declaración de independencia de Kosovo en 2008 dejaron desacuerdos sobre reconocimiento, instituciones y derechos de las comunidades.</dd></div><div><dt>Situación y consecuencias</dt><dd>Es una disputa política y de reconocimiento, no una guerra convencional actual. El diálogo busca normalizar relaciones; incidentes y desacuerdos afectan la estabilidad y la integración europea de la región.</dd></div></dl>
+              <a href="https://www.eeas.europa.eu/eeas/belgrade-pristina-dialogue_en" target="_blank" rel="noopener noreferrer">Unión Europea · diálogo Belgrado–Pristina ↗</a>
+            </article>
+            <article class="conflict-card" data-conflict="cyprus">
+              <span class="conflict-type">DIVISIÓN TERRITORIAL · MISIÓN DE LA ONU</span><h4>Chipre</h4>
+              <dl><div><dt>Ubicación y actores</dt><dd>Isla del Mediterráneo oriental; comunidades grecochipriota y turcochipriota, República de Chipre, Turquía, Grecia y Naciones Unidas.</dd></div><div><dt>Antecedentes y causas</dt><dd>La crisis intercomunitaria y los acontecimientos de 1974 precedieron a la división de facto de la isla y a una zona de amortiguación supervisada por la ONU.</dd></div><div><dt>Situación y consecuencias</dt><dd>No existe un acuerdo político integral. UNFICYP mantiene la vigilancia del cese del fuego y la zona de amortiguación; la división condiciona la vida cotidiana, la movilidad y las negociaciones.</dd></div></dl>
+              <a href="https://peacekeeping.un.org/en/factsheet/unficyp" target="_blank" rel="noopener noreferrer">ONU · ficha de UNFICYP ↗</a>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="geopolitics-continent">
+        <header class="geopolitics-subheading"><span>ASIA</span><h3>Conflictos, soberanía y tensiones regionales</h3></header>
+        <div class="geopolitics-layout">
+          <figure class="conflict-map-card">
+            <figcaption><span>MAPA DE LOCALIZACIÓN</span><strong>Asia</strong></figcaption>
+            <svg class="conflict-map" data-conflict-map="asia" viewBox="0 0 1000 500" role="img" aria-label="Mapa de Asia con localización aproximada de Gaza, el Golán, el Tíbet, Taiwán y el mar de China Meridional"></svg>
+            <p>Marcadores orientativos; su tamaño no representa control territorial ni el alcance de las hostilidades. Base cartográfica: Natural Earth 1:110m.</p>
+          </figure>
+          <div class="geopolitics-cards">
+            <article class="conflict-card" data-conflict="palestine">
+              <span class="conflict-type">GUERRA · OCUPACIÓN · CRISIS HUMANITARIA</span><h4>Israel y Palestina</h4>
+              <dl><div><dt>Ubicación y actores</dt><dd>Israel, la Franja de Gaza, Cisjordania y Jerusalén Este; Israel, grupos armados palestinos —entre ellos Hamás—, la Autoridad Palestina y actores regionales e internacionales.</dd></div><div><dt>Antecedentes y causas</dt><dd>Un conflicto de larga duración ligado a autodeterminación y soberanía, ocupación iniciada en 1967, seguridad, asentamientos, refugiados y el estatus de Jerusalén. Los ataques de Hamás del 7 de octubre de 2023 y la posterior campaña militar israelí intensificaron la guerra en Gaza.</dd></div><div><dt>Situación y consecuencias</dt><dd>En noviembre de 2026, OCHA sigue documentando violencia, desplazamiento y necesidades humanitarias en el territorio palestino ocupado. La población civil afronta muertes, daños, restricciones de acceso y una crisis prolongada; el informe enlazado fecha los datos.</dd></div></dl>
+              <a href="https://www.ochaopt.org/content/humanitarian-situation-report-18-november-2026" target="_blank" rel="noopener noreferrer">OCHA · situación humanitaria, 18 nov. 2026 ↗</a>
+            </article>
+            <article class="conflict-card" data-conflict="taiwan">
+              <span class="conflict-type">DISPUTA DE SOBERANÍA · TENSIÓN</span><h4>Estrecho de Taiwán</h4>
+              <dl><div><dt>Ubicación y actores</dt><dd>Estrecho entre China continental y Taiwán; República Popular China y autoridades de Taiwán, con Estados Unidos y otros países como actores externos relevantes.</dd></div><div><dt>Antecedentes y causas</dt><dd>La guerra civil china culminó en 1949 con gobiernos separados. Pekín sostiene que Taiwán forma parte de China; en Taiwán coexisten posiciones diversas sobre el estatus y el futuro político de la isla.</dd></div><div><dt>Situación y consecuencias</dt><dd>No hay una guerra abierta entre ambos gobiernos al corte citado, pero continúan tensiones diplomáticas y militares. El desacuerdo afecta la seguridad regional, las relaciones internacionales y rutas comerciales estratégicas.</dd></div></dl>
+              <a href="https://www.congress.gov/crs-product/IF10275" target="_blank" rel="noopener noreferrer">Congressional Research Service · Taiwan ↗</a>
+            </article>
+            <article class="conflict-card" data-conflict="tibet">
+              <span class="conflict-type">SITUACIÓN POLÍTICA Y DERECHOS</span><h4>Tíbet</h4>
+              <dl><div><dt>Ubicación y actores</dt><dd>Región Autónoma del Tíbet y zonas tibetanas de otras provincias de China; Gobierno de la República Popular China, población tibetana y comunidades en el exilio.</dd></div><div><dt>Antecedentes y causas</dt><dd>La República Popular China estableció su control sobre el Tíbet en la década de 1950; el levantamiento de 1959 llevó al exilio del Dalái Lama. Pekín describe el proceso como integración y desarrollo; voces tibetanas y organizaciones de derechos humanos denuncian restricciones a la autonomía, la religión y la lengua.</dd></div><div><dt>Situación y consecuencias</dt><dd>No es una guerra convencional actual: es una cuestión política e histórica dentro de China, con desacuerdos sobre autonomía, identidad, educación y derechos. Las fuentes y perspectivas difieren; esta ficha no presenta la independencia como estatus vigente.</dd></div></dl>
+              <a href="https://www.ohchr.org/en/press-releases/2023/02/china-un-experts-alarmed-separation-1-million-tibetan-children-families" target="_blank" rel="noopener noreferrer">ONU · expertos sobre educación y familias tibetanas ↗</a>
+            </article>
+            <article class="conflict-card" data-conflict="south-china-sea">
+              <span class="conflict-type">DISPUTAS MARÍTIMAS · DERECHO DEL MAR</span><h4>Mar de China Meridional</h4>
+              <dl><div><dt>Ubicación y actores</dt><dd>Mar del Pacífico occidental; China, Taiwán, Filipinas, Vietnam, Malasia y Brunéi mantienen reclamos que se superponen en torno a islas, arrecifes y zonas marítimas.</dd></div><div><dt>Antecedentes y causas</dt><dd>Las reclamaciones históricas y las zonas económicas exclusivas definidas por la Convención del Mar se cruzan en un espacio de pesca, recursos y rutas internacionales. En 2016, un tribunal arbitral emitió un laudo en el caso iniciado por Filipinas contra China; China no lo acepta.</dd></div><div><dt>Situación y consecuencias</dt><dd>Persisten desacuerdos diplomáticos e incidentes marítimos; no equivalen a una guerra declarada. Las disputas afectan la pesca, la explotación de recursos, la libertad de navegación y la seguridad regional.</dd></div></dl>
+              <a href="https://pca-cpa.org/en/cases/7/" target="_blank" rel="noopener noreferrer">Corte Permanente de Arbitraje · caso del mar de China Meridional ↗</a>
+            </article>
+            <article class="conflict-card" data-conflict="golan">
+              <span class="conflict-type">DISPUTA TERRITORIAL · CESE DEL FUEGO</span><h4>Altos del Golán</h4>
+              <dl><div><dt>Ubicación y actores</dt><dd>Meseta entre Siria e Israel; ambos Estados y la Fuerza de las Naciones Unidas de Observación de la Separación (UNDOF).</dd></div><div><dt>Antecedentes y causas</dt><dd>Israel tomó el Golán a Siria durante la guerra de 1967 y extendió allí su legislación en 1981. La resolución 497 del Consejo de Seguridad declaró nula esa decisión; Israel mantiene el control de facto y Siria reclama el territorio.</dd></div><div><dt>Situación y consecuencias</dt><dd>La ONU continúa observando la zona de separación y el alto el fuego. El estatus territorial sigue sin resolverse y las tensiones regionales afectan a comunidades y seguridad fronteriza.</dd></div></dl>
+              <a href="https://docs.un.org/en/S/RES/497(1981)" target="_blank" rel="noopener noreferrer">Consejo de Seguridad · resolución 497 (1981) ↗</a>
+              <a href="https://undof.unmissions.org/en" target="_blank" rel="noopener noreferrer">ONU · misión UNDOF ↗</a>
+            </article>
+          </div>
+        </div>
+      </div>
+      <p class="geopolitics-note">Síntesis educativa: una guerra, una disputa territorial, una controversia de soberanía y un desacuerdo político requieren descripciones distintas. Las ubicaciones son esquemáticas y no expresan posiciones sobre fronteras ni soberanía.</p>
+    </section>
+
+    <section class="sources-section section-pad" id="fuentes">
+      <header class="sources-heading">
+        <p class="section-kicker"><span>08</span> / TRAZABILIDAD</p>
+        <h2>Fuentes y<br><em>referencias.</em></h2>
+        <p>Datos y límites simplificados para lectura escolar. Consultá las fuentes originales para definiciones, series y licencias completas.</p>
+      </header>
+      <div class="source-grid">
+        <article class="source-card"><span>POBLACIÓN · 2024</span><h3>Naciones Unidas</h3><p>World Population Prospects 2024. Las cifras continentales son estimaciones regionales redondeadas.</p><a href="https://population.un.org/wpp/" target="_blank" rel="noopener noreferrer">Consultar WPP ↗</a></article>
+        <article class="source-card"><span>REGIONES · CLASIFICACIÓN</span><h3>ONU M49</h3><p>Composición de regiones estadísticas. Las agrupaciones educativas del sitio no equivalen a una lista de Estados soberanos.</p><a href="https://unstats.un.org/unsd/methodology/m49/" target="_blank" rel="noopener noreferrer">Consultar M49 ↗</a></article>
+        <article class="source-card"><span>CARTOGRAFÍA · 1:110m / 1:10m</span><h3>Natural Earth</h3><p>Fronteras generalizadas, ríos y relieve hipsométrico sombreado. Datos de dominio público; no representan una posición sobre soberanía ni sirven para medir a gran escala.</p><a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener noreferrer">Términos y datos ↗</a><a href="https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-rivers-lake-centerlines/" target="_blank" rel="noopener noreferrer">Ríos ↗</a><a href="https://www.naturalearthdata.com/downloads/10m-cross-blend-hypso/10m-cross-blended-hypso-with-shaded-relief-and-water/" target="_blank" rel="noopener noreferrer">Relieve 10m ↗</a></article>
+        <article class="source-card"><span>GEOGRAFÍA FÍSICA</span><h3>Encyclopaedia Britannica</h3><p>Referencias de superficie continental y consulta general de relieve, tectónica, monzones y modelado glaciar. Las superficies varían según la delimitación.</p><a href="https://www.britannica.com/place/Europe" target="_blank" rel="noopener noreferrer">Europa ↗</a><a href="https://www.britannica.com/place/Asia" target="_blank" rel="noopener noreferrer">Asia ↗</a><a href="https://www.britannica.com/science/plate-tectonics" target="_blank" rel="noopener noreferrer">Tectónica ↗</a><a href="https://www.britannica.com/science/monsoon" target="_blank" rel="noopener noreferrer">Monzón ↗</a><a href="https://www.britannica.com/science/fjord" target="_blank" rel="noopener noreferrer">Fiordo ↗</a></article>
+        <article class="source-card"><span>ECONOMÍA · ALCANCE REGIONAL</span><h3>Banco Mundial</h3><p>ECA cubre Europa y Asia central; EAP, Asia oriental y el Pacífico. No son estadísticas continentales comparables.</p><a href="https://www.worldbank.org/ext/en/region/eca" target="_blank" rel="noopener noreferrer">Región ECA ↗</a><a href="https://www.worldbank.org/ext/en/region/eap" target="_blank" rel="noopener noreferrer">Región EAP ↗</a></article>
+        <article class="source-card"><span>FOTOGRAFÍAS · LICENCIAS</span><h3>Wikimedia Commons</h3><p>Autoría, archivo y licencia aparecen junto a cada fotografía. Las atribuciones enlazan a la ficha original.</p><span class="source-credit-note">Créditos individuales en las galerías y tarjetas de relieve y clima.</span></article>
+        <article class="source-card"><span>CLASIFICACIÓN CLIMÁTICA · 1991–2020</span><h3>Köppen–Geiger · 1 km</h3><p>Mapas de Beck et al. (2023), versión 3, con clases agrupadas para lectura escolar. Publicados con licencia CC BY 4.0.</p><a href="https://doi.org/10.1038/s41597-023-02549-6" target="_blank" rel="noopener noreferrer">Artículo científico ↗</a><a href="https://www.gloh2o.org/koppen/" target="_blank" rel="noopener noreferrer">Datos GloH2O ↗</a></article>
+        <article class="source-card"><span>ACTUALIDAD · CORTE 22 NOV. 2026</span><h3>Fuentes institucionales</h3><p>Los enlaces de cada ficha conducen a actualizaciones de OCHA, ONU, OTAN, Unión Europea, CRS y el tribunal arbitral. Las situaciones y las posiciones oficiales pueden cambiar.</p><a href="https://www.unocha.org/ukraine" target="_blank" rel="noopener noreferrer">OCHA · Ucrania ↗</a><a href="https://www.ochaopt.org/content/humanitarian-situation-report-18-november-2026" target="_blank" rel="noopener noreferrer">OCHA · territorio palestino ocupado ↗</a></article>
+      </div>
+      <p class="sources-method">Las cifras, fronteras y extremos geográficos dependen de convenciones y fechas de referencia; las densidades se derivan de estimaciones de población y superficie aproximadas. El mapa Köppen–Geiger resume el periodo 1991–2020; la geopolítica se fecha al 22 de noviembre de 2026 y no sustituye la consulta de informes y posiciones originales.</p>
+    </section>
+
+    <section class="closing section-pad scroll-scene" id="cierre" data-scene="closing">
+      <p class="eyebrow reveal">UN PLANETA · MUCHAS PERSPECTIVAS</p>
+      <blockquote class="closing-quote reveal">“El ser humano no puede descubrir nuevos océanos hasta que no gana la valentía de dejar atrás la orilla”</blockquote>
+      <p class="quote-attribution reveal">— André Gide</p>
+      <a class="button button-light reveal" href="#inicio">Volver a la órbita ↑</a>
+    </section>
+  </main>
+  <dialog class="photo-lightbox" id="photo-lightbox" aria-labelledby="lightbox-title">
+    <button class="lightbox-close" type="button" aria-label="Cerrar fotografía ampliada">×</button>
+    <figure>
+      <img id="lightbox-image" alt="">
+      <figcaption>
+        <p id="lightbox-location"></p>
+        <h2 id="lightbox-title"></h2>
+        <p id="lightbox-description"></p>
+        <p id="lightbox-credit"></p>
+      </figcaption>
+    </figure>
+  </dialog>
+  <footer id="fin"><span>ATLAS EURASIA</span><span>PROYECTO ESCOLAR DE GEOGRAFÍA</span><span>2026</span></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+  <script type="module" src="earth.js"></script>
+</body>
+</html>
